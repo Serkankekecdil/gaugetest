@@ -1,0 +1,36 @@
+#N11 sayfasına üye olma
+* Css li "a[class='btnSignUp']" elemente tikla
+* "1" Saniye Bekle
+* İd li "firstName" element bul ve "SERKAN" yazma
+* "1" Saniye Bekle
+* İd li "lastName" element bul ve "KEKECDİL" yazma
+* "1" Saniye Bekle
+* İd li "registrationEmail" element bul ve "serkan.kekecdil@testinium.com" yazma
+* "1" Saniye Bekle
+* İd li "registrationPassword" element bul ve "123456789" yazma
+* İd li "passwordAgain" element bul ve "123456789" yazma
+* "1" Saniye Bekle
+* İd li "phoneNumber" element bul ve "5357788755" yazma
+* İd li "genderMale" tikla
+* Css li "select[class='day']" elemente tikla
+
+
+#Kullanıcı adı <username> ve şifre bilgisi <password> ile login işlemini tamamla
+* Css li "a[class='btnSignIn']" elemente tikla
+* "1" Saniye Bekle
+* Css li "input[name='email']" element bul ve "serkan.kekecdil@testinium.com" değeri yaz
+* "1" Saniye Bekle
+* Css li "input[name='password']" element bul ve "123456789" değeri yaz
+* "1" Saniye Bekle
+* Css li "a[class='logo  home ']" elemente tikla
+
+
+#Arama textboxuna <text> yazılır ve istenilen <product> sepete eklenir
+
+* İd li "searchData" element bul ve <text> yazma
+* Css li "a[class='searchBtn']" elemente tikla
+* Xpath li "(//h3[@class='productName'])[8]" elemente tıkla
+* Css li "(a[class='addWishListBtn b-dt-wishlist '])" elemente tikla
+* Css li "div[class='product-add-cart']" elemente tikla
+
+
